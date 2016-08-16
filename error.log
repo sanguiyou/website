@@ -1,0 +1,425 @@
+2016/04/24 13:13:27 [error] 4270#0: *1 open() "/home/sanggy/phpcode/test-laravel/test/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/userlist"
+2016/04/25 11:06:48 [error] 3768#0: *24 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/"
+2016/04/25 14:54:27 [error] 3768#0: *68 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist"
+2016/04/25 14:55:58 [error] 3768#0: *78 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 14:59:02 [error] 3768#0: *82 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 15:06:06 [error] 3768#0: *90 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist"
+2016/04/25 15:06:33 [error] 3768#0: *90 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 15:08:38 [error] 3770#0: *99 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'aa' (T_STRING) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 15:09:36 [error] 3770#0: *99 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 62" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 15:09:58 [error] 3770#0: *99 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist"
+2016/04/25 15:10:21 [error] 3770#0: *99 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist"
+2016/04/25 16:44:34 [error] 3770#0: *130 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=0"
+2016/04/25 17:30:18 [error] 3771#0: *239 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 64" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 17:30:49 [error] 3771#0: *239 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 69" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 17:34:44 [error] 3771#0: *272 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected end of file in /home/sanggy/phpcode/eat-admin/storage/framework/views/a0c1cceb0add6450f2e5a079e8f0091161662833.php on line 93" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 17:35:31 [error] 3771#0: *272 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected end of file in /home/sanggy/phpcode/eat-admin/storage/framework/views/a0c1cceb0add6450f2e5a079e8f0091161662833.php on line 93" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/25 17:36:20 [error] 3771#0: *272 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected end of file in /home/sanggy/phpcode/eat-admin/storage/framework/views/a0c1cceb0add6450f2e5a079e8f0091161662833.php on line 93" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/26 11:05:01 [error] 827#0: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/26 17:06:49 [error] 827#0: *118 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/26 17:07:08 [error] 827#0: *118 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/26 17:23:55 [error] 827#0: *130 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 155" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/chargelist?state=0 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/26 17:34:07 [error] 827#0: *174 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/26 17:40:48 [error] 827#0: *187 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/26 17:53:51 [error] 827#0: *217 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditsecond"
+2016/04/27 15:04:18 [error] 996#996: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/"
+2016/04/27 15:04:54 [error] 996#996: *15 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com"
+2016/04/27 15:04:54 [error] 996#996: *15 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com"
+2016/04/27 15:23:09 [error] 996#996: *61 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 166" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/chargeopt?type=auditfirst HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/27 15:23:26 [error] 996#996: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use object of type Illuminate\Database\Query\Builder as array in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 162" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/chargeopt?type=auditfirst HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/27 15:32:16 [error] 997#997: *85 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:33:29 [error] 997#997: *89 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:33:32 [error] 997#997: *89 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:34:32 [error] 997#997: *89 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:34:40 [error] 997#997: *89 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:34:54 [error] 997#997: *89 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:35:07 [error] 997#997: *89 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 15:52:43 [error] 997#997: *133 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 16:06:52 [error] 997#997: *135 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditsecond"
+2016/04/27 16:49:42 [error] 997#997: *153 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 16:52:58 [error] 997#997: *155 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 16:56:17 [error] 997#997: *176 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargeopt?type=auditfirst"
+2016/04/27 17:09:38 [error] 997#997: *194 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ':', expecting '(' in /home/sanggy/phpcode/eat-admin/storage/framework/views/0ac16f6daf5fac64c575e21cb48fb912567a7f77.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/chargelist?state=1&page=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/27 17:26:03 [error] 997#997: *226 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1"
+2016/04/27 17:30:28 [error] 996#996: *248 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/27 17:49:38 [error] 996#996: *284 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sanggy/phpcode/eat-admin/storage/framework/views/0ac16f6daf5fac64c575e21cb48fb912567a7f77.php on line 44" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/chargelist?state=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/27 17:53:28 [error] 996#996: *286 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1"
+2016/04/27 18:16:25 [error] 996#996: *339 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1&page=1"
+2016/04/27 18:25:15 [error] 996#996: *354 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1&page=1"
+2016/04/27 18:26:29 [error] 996#996: *362 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1&page=1"
+2016/04/27 18:26:30 [error] 996#996: *362 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1&page=1"
+2016/04/27 18:30:11 [error] 996#996: *373 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1&page=1"
+2016/04/28 14:05:33 [error] 1001#1001: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/"
+2016/04/28 15:06:29 [error] 1001#1001: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Tools\Exception' not found in /home/sanggy/phpcode/eat-admin/app/Tools/Tools.php on line 45" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/28 15:52:23 [error] 1001#1001: *103 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use object of type stdClass as array in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlist?showtype=1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/28 16:01:49 [error] 1001#1001: *111 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 224" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/productlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/28 16:38:40 [error] 1001#1001: *122 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';' in /home/sanggy/phpcode/eat-admin/storage/framework/views/8d4166c97c0f4993a1ce02ce2b32542f44dcf191.php on line 54" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/productlist?page=33 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/28 16:40:25 [error] 1001#1001: *138 FastCGI sent in stderr: "PHP message: 1111" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/productlist?page=32 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/28 16:42:13 [error] 1001#1001: *142 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error11:array (
+  0 => 
+  array (
+    'city' => '����',
+    'flowdept' => '�п�',
+    'salerid' => 10007,
+    'price' => 80,
+  ),
+  1 => 
+  array (
+    'city' => '�Ϻ�',
+    'flowdept' => '�п�',
+    'salerid' => 10007,
+    'price' => 80,
+  ),
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 16:46:40 [error] 1001#1001: *145 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error11:{"success":false,"error":"json format error!"}
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 16:47:33 [error] 1001#1001: *145 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error11:
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 16:51:49 [error] 1001#1001: *152 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error11:array (
+  0 => 
+  array (
+    'city' => '����',
+    'flowdept' => '�п�',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+  1 => 
+  array (
+    'city' => '�Ϻ�',
+    'flowdept' => '�п�',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+)
+
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 17:00:55 [error] 1001#1001: *157 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error11:array (
+  0 => 
+  array (
+    'city' => '' . "\0" . '�' . "\0" . '�' . "\0" . '�' . "\0" . '�',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+  1 => 
+  array (
+    'city' => '' . "\0" . '	�' . "\0" . '�',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+)
+
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 17:01:58 [error] 1001#1001: *157 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error:array (
+  0 => 
+  array (
+    'city' => '北京',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+  1 => 
+  array (
+    'city' => '上海',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+)
+ return result:{"success":true,"error":""}
+PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error11:array (
+  0 => 
+  array (
+    'city' => '北京',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+  1 => 
+  array (
+    'city' => '上海',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+)
+[{"city":"\u5317\u4eac","flowdept":"\u7537\u79d1","salerid":10007,"price":90},{"city":"\u4e0a\u6d77","flowdept":"\u7537\u79d1","salerid":10007,"price":90}]
+ return result:{"success":true,"error":""}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 17:08:23 [error] 1001#1001: *162 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/FlowPublish.aspx error:array (
+  0 => 
+  array (
+    'city' => '北京',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+  1 => 
+  array (
+    'city' => '上海',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 90,
+  ),
+)
+ return result:{"success":true,"error":""}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist?page=32"
+2016/04/28 17:16:16 [error] 1001#1001: *165 FastCGI sent in stderr: "PHP message: notify  error:array (
+  0 => 
+  array (
+    'city' => '北京',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 111,
+  ),
+  1 => 
+  array (
+    'city' => '上海',
+    'flowdept' => '男科',
+    'salerid' => 10007,
+    'price' => 111,
+  ),
+)
+ return result:" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/productOpt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist"
+2016/04/28 17:32:31 [error] 1001#1001: *187 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use object of type Illuminate\Database\Query\Builder as array in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 80" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/04/28 17:33:27 [error] 1001#1001: *187 FastCGI sent in stderr: "PHP message: notify  error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/04/28 17:36:33 [error] 1001#1001: *191 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=0"
+2016/04/29 10:33:24 [error] 1073#1073: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=0"
+2016/04/29 13:50:57 [error] 1073#1073: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 38" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 13:51:55 [error] 1073#1073: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 38" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist?username=ff HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 13:52:35 [error] 1073#1073: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 38" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist?page=1"
+2016/04/29 13:52:38 [error] 1073#1073: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 38" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist?page=1"
+2016/04/29 13:52:38 [error] 1073#1073: *79 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 13:53:07 [error] 1073#1073: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 38" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/logout HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist?page=1"
+2016/04/29 13:53:13 [error] 1073#1073: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 38" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 13:54:31 [error] 1073#1073: *104 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function can() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 41" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 13:54:38 [error] 1073#1073: *104 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/storage/framework/views/d132d5500634205fa5b16a6416c0d152a3371502.php on line 147" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 13:56:40 [error] 1072#1072: *123 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 13:56:53 [error] 1072#1072: *120 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 13:57:47 [error] 1072#1072: *120 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';' in /home/sanggy/phpcode/eat-admin/storage/framework/views/322476455ea65f1fdb72d7b994815e0e2beffcfb.php on line 36" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 13:58:03 [error] 1072#1072: *120 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';' in /home/sanggy/phpcode/eat-admin/storage/framework/views/322476455ea65f1fdb72d7b994815e0e2beffcfb.php on line 36" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:02:28 [error] 1072#1072: *155 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 14:05:12 [error] 1072#1072: *171 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 14:05:19 [error] 1072#1072: *171 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/BuyerController.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/buyerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 14:05:46 [error] 1072#1072: *171 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/BuyerController.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/buyerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/salerlist"
+2016/04/29 14:07:04 [error] 1072#1072: *190 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/BuyerController.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/buyerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/salerlist"
+2016/04/29 14:10:19 [error] 1073#1073: *199 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/Controller.php on line 21" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:10:49 [error] 1073#1073: *199 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Http\Controllers\User' not found in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/Controller.php on line 27" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:12:31 [error] 1073#1073: *205 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Undefined class constant 'db' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:13:26 [error] 1073#1073: *205 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:13:52 [error] 1073#1073: *205 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Access level to App\Http\Controllers\AdminController::$db must be public (as in class App\Http\Controllers\Controller) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:14:10 [error] 1073#1073: *205 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:14:17 [error] 1073#1073: *205 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Access level to App\Http\Controllers\AdminController::$db must be public (as in class App\Http\Controllers\Controller) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/salerlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:16:02 [error] 1073#1073: *218 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 629" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/logout HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/buyerlist"
+2016/04/29 14:16:39 [error] 1073#1073: *218 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 613" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/login HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login"
+2016/04/29 14:22:39 [error] 1073#1073: *255 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'App\Http\Controllers\Request' not found in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/Controller.php on line 41" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login"
+2016/04/29 14:23:25 [error] 1073#1073: *274 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/permissionlist?roleid=76"
+2016/04/29 14:39:27 [error] 1073#1073: *334 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/logout"
+2016/04/29 14:39:42 [error] 1073#1073: *341 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login"
+2016/04/29 14:43:37 [error] 1073#1073: *357 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com"
+2016/04/29 14:48:06 [error] 1073#1073: *369 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/storage/framework/views/d132d5500634205fa5b16a6416c0d152a3371502.php on line 116" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:48:29 [error] 1073#1073: *374 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/storage/framework/views/d132d5500634205fa5b16a6416c0d152a3371502.php on line 116" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:50:23 [error] 1073#1073: *376 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/storage/framework/views/d132d5500634205fa5b16a6416c0d152a3371502.php on line 116" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 14:50:26 [error] 1073#1073: *388 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function hasRole() on null in /home/sanggy/phpcode/eat-admin/storage/framework/views/d132d5500634205fa5b16a6416c0d152a3371502.php on line 116" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/04/29 15:00:29 [error] 1073#1073: *470 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/permissionlist?roleid=76"
+2016/04/29 15:01:35 [error] 1073#1073: *485 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist"
+2016/04/29 15:03:27 [error] 1073#1073: *504 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/productlist"
+2016/04/29 15:27:05 [error] 1073#1073: *544 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/buyerqualificationlist"
+2016/04/29 15:39:14 [error] 1073#1073: *584 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=0"
+2016/04/29 17:05:46 [error] 1073#1073: *735 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/04/29 18:20:13 [error] 1072#1072: *794 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/sanggy/phpcode/eat-admin/storage/framework/views/09a862facf312e322aacbe3f7724d88866691ef6.php on line 37" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/orderlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:42:24 [error] 1031#1031: *1 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '　return' (T_STRING) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 532" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:42:24 [error] 1031#1031: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/05/03 10:44:49 [error] 1031#1031: *5 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '　' (T_STRING) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 532" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:44:52 [error] 1031#1031: *5 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '　' (T_STRING) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 532" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:45:42 [error] 1031#1031: *5 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '{' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 531" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:45:55 [error] 1031#1031: *5 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'response' (T_STRING) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 531" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:46:13 [error] 1031#1031: *5 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '{' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 538" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:46:28 [error] 1031#1031: *5 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '{' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 538" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:49:26 [error] 1031#1031: *17 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '{' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 538" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/login?before=/admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:49:52 [error] 1031#1031: *17 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 538" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/login?before=/admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:50:18 [error] 1031#1031: *17 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 538" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/login?before=/admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:50:40 [error] 1031#1031: *17 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'response' (T_STRING) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 538" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/login?before=/admin/userlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 10:59:06 [error] 1031#1031: *44 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:02:35 [error] 1031#1031: *60 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/05/03 11:07:47 [error] 1031#1031: *101 open() "/home/sanggy/phpcode/eat-admin/statics/js/jquery-1.10.2.min.map" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /js/jquery-1.10.2.min.map HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:07:55 [error] 1031#1031: *101 open() "/home/sanggy/phpcode/eat-admin/statics/js/jquery-1.10.2.min.map" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /js/jquery-1.10.2.min.map HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:08:42 [error] 1031#1031: *101 open() "/home/sanggy/phpcode/eat-admin/statics/js/jquery-1.10.2.min.map" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /js/jquery-1.10.2.min.map HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:11:24 [error] 1031#1031: *114 open() "/home/sanggy/phpcode/eat-admin/statics/js/jquery-1.10.2.min.map" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /js/jquery-1.10.2.min.map HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:11:32 [error] 1031#1031: *114 open() "/home/sanggy/phpcode/eat-admin/statics/js/jquery-1.10.2.min.map" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /js/jquery-1.10.2.min.map HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:11:44 [error] 1031#1031: *114 open() "/home/sanggy/phpcode/eat-admin/statics/js/jquery-1.10.2.min.map" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /js/jquery-1.10.2.min.map HTTP/1.1", host: "eatadmin.com"
+2016/05/03 11:50:46 [error] 1031#1031: *128 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/05/03 16:21:37 [error] 1033#1033: *151 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ']' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/StatisticsController.php on line 134" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:21:56 [error] 1033#1033: *151 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function render() on array in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:22:34 [error] 1033#1033: *151 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function render() on array in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:22:56 [error] 1033#1033: *151 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function render() on array in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:33:25 [error] 1033#1033: *185 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ']' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/StatisticsController.php on line 133" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:33:37 [error] 1033#1033: *185 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130285568 bytes) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:34:49 [error] 1033#1033: *185 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 16:35:36 [error] 1033#1033: *206 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130285568 bytes) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:14:41 [error] 1033#1033: *234 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/StatisticsController.php on line 131" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:15:07 [error] 1033#1033: *234 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';' in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/StatisticsController.php on line 149" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:35:44 [error] 1033#1033: *323 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis?month=3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:36:05 [error] 1033#1033: *323 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis?month=3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:36:28 [error] 1033#1033: *323 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis?month=3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:36:54 [error] 1033#1033: *323 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis?month=3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/flowsalesanalysis?month=2"
+2016/05/03 17:37:02 [error] 1033#1033: *323 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis?month=3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/flowsalesanalysis?month=2"
+2016/05/03 17:37:29 [error] 1033#1033: *323 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sanggy/phpcode/eat-admin/storage/framework/views/5e222de561db558c7d279dc4b79ff04b74c4ed3a.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/flowsalesanalysis?month=3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:53:51 [error] 1033#1033: *384 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 479" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/orderlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/03 17:55:01 [error] 1033#1033: *391 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 479" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/orderlist HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com"
+2016/05/04 11:30:39 [error] 997#997: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
+2016/05/04 14:52:20 [error] 997#997: *99 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/salerlist"
+2016/05/04 16:29:20 [error] 998#998: *178 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/buyerconsumestatistics"
+2016/05/04 16:35:48 [error] 999#999: *190 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/flowsalesanalysis"
+2016/05/04 17:52:30 [error] 11441#11441: *74 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/withdrawdepositlist"
+2016/05/04 17:53:35 [error] 11441#11441: *85 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/salerlist"
+2016/05/04 17:54:44 [error] 11441#11441: *85 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:18:46 [error] 11441#11441: *95 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlistforfinance?showtype=2"
+2016/05/04 18:18:47 [error] 11441#11441: *95 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlistforfinance?showtype=2"
+2016/05/04 18:25:51 [error] 11441#11441: *106 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:26:09 [error] 11441#11441: *104 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:26:12 [error] 11441#11441: *104 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:26:23 [error] 11441#11441: *105 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:26:59 [error] 11441#11441: *108 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:27:02 [error] 11441#11441: *108 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:30:49 [error] 11441#11441: *118 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:31:04 [error] 11441#11441: *122 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:31:38 [error] 11441#11441: *123 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:32:43 [error] 11441#11441: *123 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:32:52 [error] 11441#11441: *129 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:32:55 [error] 11441#11441: *129 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:33:33 [error] 11441#11441: *117 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:33:41 [error] 11441#11441: *117 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:34:19 [error] 11441#11441: *117 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:34:29 [error] 11441#11441: *129 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:34:35 [error] 11441#11441: *129 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:35:18 [error] 11441#11441: *127 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:35:22 [error] 11441#11441: *127 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:36:14 [error] 11441#11441: *123 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:36:16 [error] 11441#11441: *123 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:37:14 [error] 11441#11441: *123 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:38:32 [error] 11441#11441: *144 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:40:00 [error] 11441#11441: *151 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:40:41 [error] 11441#11441: *153 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlist?showtype=1"
+2016/05/04 18:41:44 [error] 11441#11441: *155 FastCGI sent in stderr: "PHP message: notify http://chatdis.yiaitao.net/Complaint.aspx error:array (
+  'city' => '北京',
+  'flowdept' => '男科',
+  'buyerid' => '1',
+  'saleid' => '100011',
+)
+ return result:{"success":false,"error":"json format error!"}" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "POST /admin/complaintopt HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/complaintlistforsaler?showtype=0"
+2016/05/05 10:17:21 [error] 1011#1011: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
+2016/05/05 11:03:48 [error] 1011#1011: *88 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/chargelist?state=1&search_type=type-name&search=gzh&page=3"
+2016/05/05 17:33:03 [error] 1012#1012: *140 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/orderlist"
+2016/05/05 17:34:05 [error] 1012#1012: *140 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/orderlist"
+2016/05/05 17:39:00 [error] 1012#1012: *157 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/orderlist?page=2"
+2016/05/06 11:33:37 [error] 978#978: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
+2016/05/09 10:34:10 [error] 1014#1014: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com"
+2016/05/10 09:27:32 [error] 985#985: *1 open() "/home/sanggy/phpcode/eat-admin/statics/html/help.html" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /html/help.html HTTP/1.1", host: "eatadmin.com"
+2016/05/10 09:27:32 [error] 985#985: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com"
+2016/05/12 18:52:36 [error] 990#990: *87 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
+2016/05/12 18:54:38 [error] 990#990: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined function App\Http\Controllers\eixt() in /home/sanggy/phpcode/eat-admin/app/Http/Controllers/AdminController.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: eatadmin.com, request: "GET /admin/complaintlistforsaler?showtype=0 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/userlist"
+2016/05/13 15:04:25 [error] 1014#1014: *244 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
+2016/05/13 15:33:02 [error] 1014#1014: *268 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/salerlist"
+2016/05/13 16:08:05 [error] 1014#1014: *319 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/orderlist"
+2016/05/13 16:22:27 [error] 1014#1014: *361 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/orderlist?search_type=typ-orderid&search=&flowdept=0"
+2016/05/13 16:40:00 [error] 1014#1014: *400 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/flowsalesanalysis"
+2016/05/13 16:53:05 [error] 1013#1013: *413 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/flowsalesanalysis?month=2&flowdept=%E5%A6%87%E7%A7%91&city=%E4%B8%8A%E6%B5%B7"
+2016/05/15 12:53:41 [error] 974#974: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
+2016/05/16 10:24:22 [error] 1020#1020: *1 open() "/home/sanggy/phpcode/eat-admin/statics/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: eatadmin.com, request: "GET /favicon.ico HTTP/1.1", host: "eatadmin.com", referrer: "http://eatadmin.com/admin/login?before=/admin/userlist"
